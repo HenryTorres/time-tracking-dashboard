@@ -49,27 +49,27 @@ const fnCreateCard = (timeframe) => {
         switch (item.title) {
           case 'Work':
             color = style.getPropertyValue('--light-red-work').trim();
-            image = 'url(../images/icon-work.svg)';
+            image = 'url(images/icon-work.svg)';
             break;
           case 'Play':
             color = style.getPropertyValue('--soft-blue-play').trim();
-            image = 'url(../images/icon-play.svg)';
+            image = 'url(images/icon-play.svg)';
             break;
           case 'Study':
             color = style.getPropertyValue('--light-red-study').trim();
-            image = 'url(../images/icon-study.svg)';
+            image = 'url(images/icon-study.svg)';
             break;
           case 'Exercise':
             color = style.getPropertyValue('--lime-green-excercise').trim();
-            image = 'url(../images/icon-exercise.svg)';
+            image = 'url(images/icon-exercise.svg)';
             break;
           case 'Social':
             color = style.getPropertyValue('--violet-social').trim();
-            image = 'url(../images/icon-social.svg)';
+            image = 'url(images/icon-social.svg)';
             break;
           case 'Self Care':
             color = style.getPropertyValue('--soft-orange-self-care').trim();
-            image = 'url(../images/icon-self-care.svg)';
+            image = 'url(images/icon-self-care.svg)';
             break;
         }
 
