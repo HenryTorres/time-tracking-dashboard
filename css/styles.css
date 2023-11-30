@@ -9,7 +9,7 @@
   --light-red-work: hsl(15, 100%, 70%);
   --soft-blue-play: hsl(195, 74%, 62%);
   --light-red-study: hsl(348, 100%, 68%);
-  --lime-green-excecise: hsl(145, 58%, 55%);
+  --lime-green-excercise: hsl(145, 58%, 55%);
   --violet-social: hsl(264, 64%, 52%);
   --soft-orange-self-care: hsl(43, 84%, 65%);
 
@@ -105,6 +105,15 @@ body {
   justify-content: space-around;
 }
 
+.timeframe ul li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.timeframe ul li.active {
+  color: #fff;
+}
+
 .cards {
   display: flex;
   flex-direction: row;
@@ -115,10 +124,10 @@ body {
 }
 
 .cards .card {
-  background-color: var(--light-red-work);
-  background-image: url(../images/icon-work.svg);
+  /* background-color: var(--light-red-work); */
+  /* background-image: url(../images/icon-work.svg); */
   background-repeat: no-repeat;
-  background-size: 5rem;
+  background-size: 4.5rem;
   background-position: 90% -5%;
   border-radius: var(--border-radius);
   display: flex;
@@ -164,7 +173,7 @@ body {
 .card-content-time :nth-child(1) {
 
   color: #fff;
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 300;
 }
 
